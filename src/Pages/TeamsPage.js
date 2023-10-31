@@ -13,7 +13,7 @@ const TeamsPage = () => {
   SetLoading(true);
   setTimeout(()=>{
     SetLoading(false)
-  },2000)
+  },0)
 },[])
 
   return (
@@ -21,14 +21,14 @@ const TeamsPage = () => {
       <Navigation />
       {loading ? 
         <div className='loader' >
-            <ClimbingBoxLoader color="#000fff" size={20} />
+            <ClimbingBoxLoader color="#2534dc" size={20} />
           </div>
       : 
    
-        <div>
+        <>
         <Tlist />
         <Footer />
-        </div>
+        </>
       }
       
     </div>
