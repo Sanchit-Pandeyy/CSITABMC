@@ -1,0 +1,21 @@
+.teamdata {
+  width: 100%;
+  background-color: #F3F6FA;
+  padding-bottom: 5rem;
+  padding: 2rem;
+}
+.Title-hero > h1 {
+  text-align: center;
+  margin: 2rem 0;
+  padding-top: 3rem;
+  color: red;
+  font-size: 24px ;
+}
+.teamdata-list{
+  /* padding: 0 2em; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}

@@ -1,0 +1,61 @@
+.parent {
+  box-shadow: 0 0 10px 1px rgb(0 0 0 / 9%);
+  background-color: #fff;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 12rem;
+}
+.p-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 30px 0 20px 0 ;
+}
+
+.naming{
+  width: 100%;
+}
+
+.Name {
+  font-size: 1rem;
+  color: rgb(0, 0, 54);
+  text-align: center;
+  font-weight: 600;
+}
+.Post {
+  color: rgb(142, 142, 142);
+  text-align: center;
+}
+
+.social-icons{
+  display: flex;
+  gap: 1em;
+  margin: 1.2rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile{
+  background: rgb(244 244 244);
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s;
+  box-shadow: 0 0 10px 1px rgb(0 0 0 / 9%) inset;
+}
+.profile:hover{
+  background: rgb(203, 203, 203);
+  cursor: pointer;
+}
+
+.profile a{
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+}
