@@ -12,7 +12,7 @@ const AboutPage = () => {
     SetLoading(true);
     setTimeout(() => {
       SetLoading(false)
-    }, 2000)
+    }, 0)
   }, [])
 
 
