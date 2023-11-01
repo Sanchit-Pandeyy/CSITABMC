@@ -7,7 +7,9 @@ footer {
 
 .Sections-list-container {
   color: rgb(93, 93, 93);
+ 
 }
+
 .footer-card-container, .QuickLink, .RecentEvents, .connectWithUs{
   margin: 0 3rem;
   padding: 1rem 0;
@@ -45,6 +47,9 @@ footer {
   footer{
     padding: 0 2rem;
   }
+
+
+
   .footer-card-container{
     flex-direction: row;
     margin: 0;
@@ -62,6 +67,7 @@ footer {
   .Sections-list-container {
     margin-top: 4rem;
     display: flex;     
+ 
 
   }
   .Sections-list-container .section-end-border{
@@ -69,8 +75,26 @@ footer {
   }
 
 
+
+}
+
+@media screen and (max-width : 829px) {
+
+  .Sections-list-container{
+    padding-right: 10vw !important;
+  }
   
 }
+
+
+@media screen and (max-width :660px){
+
+  .section-end-border{
+    width: 80vw;
+  }
+  
+}
+
 
 .copyright{
   text-align: center;
