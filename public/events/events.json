@@ -667,7 +667,7 @@
    "location": "Virtual (Zoom Meets)",
    "tags": [
      "Free",
-     "completed",
+     "upcomming",
      "Machine Learning",
      "Python"
    ],
@@ -716,7 +716,7 @@
      ]
    },
    "summary": "Machine learning events are gatherings that bring together experts, researchers, and enthusiasts in the field of machine learning. These events provide a platform for knowledge sharing, networking, and collaboration. Participants have the opportunity to learn about the latest advancements, trends, and applications in machine learning. Workshops, presentations, and panel discussions are organized to delve into various topics such as deep learning, natural language processing, computer vision, and data analysis. Machine learning events also feature keynote speakers who share their insights and experiences. These events foster a sense of community and inspire individuals to explore new ideas and push the boundaries of machine learning technology.",
-   "registrationUrl": "https://forms.gle/nodejs-summit-registration",
+   "registrationUrl": "http://tiny.cc/CSITMLworkshop",
    "description": [
      {
        "title": "Introduction",
