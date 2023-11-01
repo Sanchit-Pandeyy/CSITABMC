@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import Navigation from "../components/Navigation/Navigation";
 import ImG2 from "../Assets/partners/about.jpg";
 import Footer from "../components/Footer/Footer";
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import './loader.css';
+import  BeatLoader  from 'react-spinners/BeatLoader';
+
 
 const AboutPage = () => {
   const [loading, SetLoading] = useState(false);
@@ -12,7 +13,7 @@ const AboutPage = () => {
     SetLoading(true);
     setTimeout(() => {
       SetLoading(false)
-    }, 0)
+    }, 500)
   }, [])
 
 
@@ -23,7 +24,7 @@ const AboutPage = () => {
       {loading ? 
 
         <div className='loader' >
-          <ClimbingBoxLoader color="#000fff" size={20} />
+          <BeatLoader color="#000fff" size={20} />
         </div>
 
        : 

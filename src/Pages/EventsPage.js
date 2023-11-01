@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Navigation from "../components/Navigation/Navigation";
 import Footer from "../components/Footer/Footer";
 import List from "../components/Events/List";
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+import BeatLoader from "react-spinners/BeatLoader";
 import './loader.css';
 
 
@@ -15,7 +15,7 @@ function EventsPage() {
     SetLoading(true);
     setTimeout(() => {
       SetLoading(false)
-    }, 0)
+    }, 500)
   }, [])
 
 
@@ -26,7 +26,7 @@ function EventsPage() {
       {
         loading ?
           <div className='loader' >
-            <ClimbingBoxLoader color="#000fff" size={20} />
+            <BeatLoader color="#000fff" size={20} />
           </div>
 
           :

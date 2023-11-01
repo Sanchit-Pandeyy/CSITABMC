@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Navigation from '../components/Navigation/Navigation';
 import Footer from '../components/Footer/Footer';
 import Tlist from '../components/Tlist/Tlist';
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+import BeatLoader from "react-spinners/BeatLoader";
 import './loader.css';
 
 const TeamsPage = () => {
@@ -13,7 +13,7 @@ const TeamsPage = () => {
   SetLoading(true);
   setTimeout(()=>{
     SetLoading(false)
-  },0)
+  },500)
 },[])
 
   return (
@@ -21,7 +21,7 @@ const TeamsPage = () => {
       <Navigation />
       {loading ? 
         <div className='loader' >
-            <ClimbingBoxLoader color="#2534dc" size={20} />
+            <BeatLoader color="#2534dc" size={20} />
           </div>
       : 
    
